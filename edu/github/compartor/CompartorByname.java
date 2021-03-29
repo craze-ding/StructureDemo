@@ -12,7 +12,7 @@ public class CompartorByname implements Comparator<Persion >{ //persion对象可
      */
     @Override
     public int compare(Persion o1, Persion o2) {
-        // TODO Auto-generated method stub
+        
         Persion p1=(Persion)o1;
         Persion p2=(Persion)o2;
         int temp=p1.getName().compareTo(p2.getName());

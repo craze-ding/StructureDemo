@@ -7,17 +7,17 @@ import java.util.ListIterator;
 
 public class ListDemo {
     public static void main(String[] args) {
-        List l=new ArrayList();
-        // show(l);
-        //read(l);
+        List<String> l=new ArrayList<String>();
+        show(l);
+        read(l);
         haha(l);        
     }
 
-    private static void haha(List l) {
+    private static void haha(List<String> l) {
         l.add("ding");
         l.add("zhi");
         l.add("jun");
-        ListIterator it=l.listIterator();
+        ListIterator<String> it=l.listIterator();
         while(it.hasNext()){
             Object obj=it.next();
             if(obj.equals("zhi")){
@@ -30,11 +30,11 @@ public class ListDemo {
         System.out.println(l);
     }
 
-    private static void read(List l) {
+    private static void read(List<String> l) {
         l.add("ding");
         l.add("zhi");
         l.add("jun");
-        Iterator it=l.iterator();
+        Iterator<String> it=l.iterator();
         while(it.hasNext()){
             //System.out.println(it.next());
 
@@ -44,7 +44,7 @@ public class ListDemo {
         }
     }
 
-    private static void show(List l) {
+    private static void show(List<String> l) {
         l.add("ding");
         l.add("zhi");
         l.add("jun");

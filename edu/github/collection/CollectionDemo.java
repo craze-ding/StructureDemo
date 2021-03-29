@@ -6,11 +6,11 @@ import java.util.Iterator;
 
 public class CollectionDemo {
     public static void main(String[] args) {
-        Collection coll=new ArrayList<>();
+        Collection<String> coll=new ArrayList<>();
         demo(coll);
     }
 
-    private static void demo(Collection coll) {
+    private static void demo(Collection<String> coll) {
         coll.add("ding");
         coll.add("zhi");
         coll.add("jun");
@@ -19,7 +19,7 @@ public class CollectionDemo {
         System.out.println(coll);
         coll.clear();
         System.out.println(coll); */
-        for(Iterator it=coll.iterator();it.hasNext();){
+        for(Iterator<String> it=coll.iterator();it.hasNext();){
             System.out.println(it.next());
         }
     }

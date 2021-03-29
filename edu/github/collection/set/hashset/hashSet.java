@@ -14,15 +14,15 @@ public class hashSet {
         arr.add(new Persion("zhi", 13));
         arr.add(new Persion("jun", 14));
         arr.add(new Persion("craze", 15)); */
-        HashSet ha=new HashSet<>();
+        HashSet<Persion> ha=new HashSet<>();
                 
         ha.add(new Persion("ding",21));
         ha.add(new Persion("zhi",22));
         ha.add(new Persion("jun",23));
         ha.add(new Persion("ding",21));
-        Iterator it=ha.iterator();
+        Iterator<Persion> it=ha.iterator();
         while(it.hasNext()){
-            Persion p=((Persion)it.next());
+            Persion p=it.next();
             System.out.println(p.getName()+"---"+p.getAge());
         }        
     }

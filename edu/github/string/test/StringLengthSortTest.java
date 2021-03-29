@@ -8,14 +8,14 @@ import edu.github.compartor.CompartorByString;
 public class StringLengthSortTest {
     public static void main(String[] args) {
         //字符串自然排序我们不需要,我们构造一个比较器.
-        TreeSet t=new TreeSet(new CompartorByString());
+        TreeSet<String> t=new TreeSet<String>(new CompartorByString());
         t.add("ding");
         t.add("craze");
         t.add("harris");
         t.add("jun");
         t.add("ahi");
         t.add("hahaw12");
-        for(Iterator it=t.iterator();it.hasNext();){
+        for(Iterator<String> it=t.iterator();it.hasNext();){
             System.out.println(it.next());
         }
     }

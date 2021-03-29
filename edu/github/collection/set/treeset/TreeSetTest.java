@@ -14,13 +14,13 @@ public class TreeSetTest {
      * @param args
      */
     public static void main(String[] args) {
-       TreeSet t=new TreeSet<>(new CompartorByname());
+       TreeSet<Persion> t=new TreeSet<Persion>(new CompartorByname());
        t.add(new Persion("lisi", 20));
        t.add(new Persion("wangwu", 15));
        t.add(new Persion("zhangsang", 18));
        t.add(new Persion("lisi", 13));
-       for(Iterator it=t.iterator();it.hasNext();){
-           Persion p=(Persion)it.next();
+       for(Iterator<Persion> it=t.iterator();it.hasNext();){
+           Persion p=it.next();
            System.out.println(p.getName()+"---"+p.getAge());
        }
     }  

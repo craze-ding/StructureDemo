@@ -1,6 +1,6 @@
 package edu.github.bin;
 
-public class Persion implements Comparable {
+public class Persion implements Comparable<Object> {
     private String name;
     private int age;
 
