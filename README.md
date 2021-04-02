@@ -9,3 +9,4 @@
 Collection Map Tterator Comparable接口及其子接口List Set 
 常用实现接口的子类有ArrayList LinkedList HashSet TreeSet  HashMap TreeMap LinkHashMap LinkedHashMap
 
+IDEAgit 是个什么鬼!死活commitpush不了.
