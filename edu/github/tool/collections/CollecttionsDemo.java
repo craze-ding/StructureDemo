@@ -1,4 +1,4 @@
-package edu.github.tool;
+package edu.github.tool.collections;
 
 import edu.github.compartor.CompartorByLength;
 
@@ -108,7 +108,7 @@ public class CollecttionsDemo {
                 return temp;
             }
         });//匿名内部类来创建比较器(自己实现)->底层原理*/
-        TreeSet<String> t=new TreeSet<>  (Collections.reverseOrder (new CompartorByLength ()));
+        TreeSet<String> t=new TreeSet<>  (Collections.reverseOrder());
         t.add ("sygf");
         t.add ("ding");
         t.add ("craze");
@@ -135,8 +135,9 @@ public class CollecttionsDemo {
      **/
     public static void SreachDemo(List<String> str){
 //        Collections.sort (str);
-//        System.out.println(str);
+       System.out.println(str);
         Collections.sort (str,new CompartorByLength ());//要怎么找就要怎么排好序,要统一标准
+        // Collections.sort (str,new CompartorByLength ());        
         System.out.println(str);
         int index=Collections.binarySearch (str,"ju4n",new CompartorByLength ());
         System.out.println(str);
