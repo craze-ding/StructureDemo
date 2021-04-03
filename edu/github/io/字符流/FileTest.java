@@ -3,16 +3,14 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /*
- * @Descripttion: 
+ * @Descripttion: 复制一个文件到指定路径
  * @version: X3版本
  * @Author: 丁志军
  * @Date: 2021-04-03 16:26:38
  */
-/** 要求:复制一个文件到指定路径
- * 
- * 
- */
 public class FileTest {
+    private static final int BUFFER_SIZE =1024;
+
     public static void main(String[] args) throws IOException {
         // 创建存储数据对象
         FileWriter w = null;
@@ -21,7 +19,7 @@ public class FileTest {
         try {
             w = new FileWriter("test.txt");
             r = new FileReader("demo.txt");
-            char[] str = new char[1024];
+            char[] str = new char[BUFFER_SIZE];
             int len = 0;
             //频繁读取操作
             while ((len = r.read(str)) != -1) {
