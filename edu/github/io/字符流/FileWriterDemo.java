@@ -18,7 +18,7 @@ public class FileWriterDemo {
         FileWriter file =null ;
         try {
             //FileNotFoundException(统找不到指定的路径。)
-            file=new FileWriter("k:\\demo.txt", true);// 加入ture就可以对文件进行续写
+            file=new FileWriter("demo.txt", true);// 加入ture就可以对文件进行续写
             file.write("dingzhijun" + LINE_SEPARATOR + "哈哈哈");
             file.write("这是真的");
         } catch (IOException e) {
