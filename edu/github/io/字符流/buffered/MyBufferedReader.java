@@ -4,7 +4,7 @@
  * @Author: 丁志军
  * @Date: 2021-04-05 21:31:36
  */
-package buffered;
+package edu.github.io.字符流.buffered;
 
 import java.io.FileReader;
 import java.io.IOException;

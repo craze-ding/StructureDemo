@@ -4,7 +4,7 @@
  * @Author: 丁志军
  * @Date: 2021-04-05 19:24:22
  */
-package buffered;
+package edu.github.io.字符流.buffered;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

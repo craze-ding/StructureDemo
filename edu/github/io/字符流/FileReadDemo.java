@@ -1,3 +1,5 @@
+package edu.github.io.字符流;
+
 import java.io.FileReader;
 import java.io.IOException;
 

@@ -4,7 +4,7 @@
  * @Author: 丁志军
  * @Date: 2021-04-05 18:45:04
  */
-package buffered;
+package edu.github.io.字符流.buffered;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
