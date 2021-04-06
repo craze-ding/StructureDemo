@@ -1,18 +1,10 @@
 
 package edu.github.tool.collections;
-
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
-
-
-
-
-
-
 /**
  * @program: StructureDemo - 副本
  * @description: 给非同步的集合加锁
@@ -22,19 +14,19 @@ import java.util.ListIterator;
 public class SynchronizedLockDemo {
     public static void main (String[] args) {
         //非同步的集合
-        List list=new ArrayList ();
+        List<String> list=new ArrayList<> ();
         //返回同步的集合
-        List li=MyCollection.synList (list);
+        List<String> li=MyCollection.synList (list);
     }
 }
 class MyCollection{
-    public static List synList(List list){
+    public static List<String> synList(List<String> list){
         return new MyList(list);
     }
-    private static class MyList implements  List{
-        private  List list;
+    private static class MyList <T>  implements  List<T>{
+        private  List<T> list;
         private  static final  Object lock=new Object ();
-        MyList(List list){
+        MyList(List<T> list){
             this.list=list;
         }
 
@@ -54,7 +46,7 @@ class MyCollection{
         }
 
         @Override
-        public Iterator iterator () {
+        public Iterator<T> iterator () {
             return null;
         }
 
@@ -71,7 +63,7 @@ class MyCollection{
         @Override
         public boolean add (Object o) {
             synchronized (lock){//加同步锁
-                return list.add (o);
+                return list.add ((T) o);
             }
         }
 
@@ -88,7 +80,7 @@ class MyCollection{
         }
 
         @Override
-        public boolean addAll (int index, Collection c) {
+        public boolean  addAll (int index, Collection c) {
             return false;
         }
 
@@ -98,7 +90,7 @@ class MyCollection{
         }
 
         @Override
-        public Object get (int index) {
+        public T get (int index) {
             return null;
         }
 
@@ -113,7 +105,7 @@ class MyCollection{
         }
 
         @Override
-        public Object remove (int index) {
+        public T remove (int index) {
             return null;
         }
 
