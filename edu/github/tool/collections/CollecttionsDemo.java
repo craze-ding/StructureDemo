@@ -2,6 +2,7 @@ package edu.github.tool.collections;
 import edu.github.compartor.CompartorByLength;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.TreeSet;
@@ -36,7 +37,19 @@ public class CollecttionsDemo {
 //        System.out.println(list);
 //        Reversed();//逆转
 //        ReplaceDemo(str);//替换
-        SreachDemo(str);
+        // SreachDemo(str);
+        // methodString ();
+        method(str);
+    }
+
+    private static void method(List<String> str) {
+        // String[] a=str.toArray(new String[str.size()]);
+        //长度小于实际大小,自动补足
+        // String[] a=str.toArray(new String[5]);
+        //指定长度大于实际大小，多余写入null
+        String[] a=str.toArray(new String[17]);
+        System.out.println(Arrays.toString(a));
+
     }
 
     private static void methodString () {
