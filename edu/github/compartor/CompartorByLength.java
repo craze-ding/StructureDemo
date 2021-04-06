@@ -1,3 +1,4 @@
+
 /*
  * @Descripttion: 
  * @version: X3版本
@@ -9,6 +10,9 @@ package edu.github.compartor;
 import java.util.Comparator;
 
 /**
+
+package edu.github.compartor;/**
+>>>>>>> origin/eclipes
 * @program: StructureDemo - 副本
 *
 * @description: 在演示交集合框架sort()比较器
@@ -26,4 +30,5 @@ public class CompartorByLength implements Comparator<String> {
         return temp==0?o1.compareTo(o2):temp;
     }  
     
+
 }

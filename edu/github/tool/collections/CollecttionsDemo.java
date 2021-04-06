@@ -1,5 +1,4 @@
 package edu.github.tool.collections;
-
 import edu.github.compartor.CompartorByLength;
 
 import java.util.ArrayList;
@@ -108,7 +107,7 @@ public class CollecttionsDemo {
                 return temp;
             }
         });//匿名内部类来创建比较器(自己实现)->底层原理*/
-        TreeSet<String> t=new TreeSet<>  (Collections.reverseOrder());
+        TreeSet<String> t=new TreeSet<>  (Collections.reverseOrder (new CompartorByLength ()));
         t.add ("sygf");
         t.add ("ding");
         t.add ("craze");

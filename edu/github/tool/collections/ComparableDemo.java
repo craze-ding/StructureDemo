@@ -1,3 +1,4 @@
+
 /*
  * @Descripttion: 
  * @version: X3版本
@@ -5,9 +6,7 @@
  * @Date: 2021-04-03 18:05:51
  */
 package edu.github.tool.collections;
-
 import edu.github.compartor.CompartorByLength;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -37,7 +36,11 @@ public class ComparableDemo {
         str.add("crazewqe");
         str.add("jun");
         str.add("junqwwq");
+
        Collections.sort (str,new CompartorByLength ());
+
+//        Collections.sort (str,new CompartorByLength ());
+
         mySort (str,new CompartorByLength ());
         System.out.println(str);
     }/**
