@@ -1,5 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: X3版本
+ * @Author: 丁志军
+ * @Date: 2021-04-02 18:47:00
+ */
 package edu.github.string.demo;
 public class StringDemo {
+    
     public static void main(String[] args) {
         /* StringDemo1();
         StringDemo2();  */
@@ -26,7 +33,7 @@ public class StringDemo {
                 str.append(arr[i]).append(',');
             }
             else{
-                str.append(arr[i]);
+                 str.append(arr[i]);
             }           
         }
         str.append(']');

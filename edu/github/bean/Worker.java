@@ -55,11 +55,17 @@ public class Worker /* extends Persion */ implements Comparable<Worker>/* 鎸囧
 			return false;
 		return true;
 	}
-	@Override
-    public int compareTo(Worker o) {        
-        Worker wo=/* (Worker) */o;//compareable<>指定了泛型,就省略强转动作
-        int temp=this.age-wo.age;//数据
-        return temp==0?this.name.compareTo(wo.name):temp;
+	/* @Override */
+    /* public int compareTo(Worker o) {         */
+    /*     Worker wo=/* (Worker) *///compareable<>指定了泛型,就省略强转动作 */
+    /*     int temp=this.age-wo.age;//数据 */
+    /*     return temp==0?this.name.compareTo(wo.name):temp; */
+    /* } */
+    @Override
+    public int compareTo(Worker o) {
+        // TODO Auto-generated method stub
+        
+        return 0;
     }
     
 }

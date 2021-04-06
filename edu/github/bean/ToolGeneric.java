@@ -19,6 +19,8 @@ public class ToolGeneric<Craze> {
         System.out.println("show"+c.toString());
     }
     public void print(Craze c){
+        
+        
         System.out.println("print"+c.toString());
     }
     /**
@@ -28,7 +30,7 @@ public class ToolGeneric<Craze> {
     public static <w> void method(w c){
         System.out.println("method"+c);
     }
-
+    
 
     
 }

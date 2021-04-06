@@ -1,0 +1,98 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch StringDemo",
+            "request": "launch",
+            "mainClass": "edu.github.string.demo.StringDemo",
+            "projectName": "StructureDemo-vscode_95bdf1a7"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringLengthSortTest",
+            "request": "launch",
+            "mainClass": "edu.github.string.test.StringLengthSortTest",
+            "projectName": "StructureDemo-vscode_95bdf1a7"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenericlimitDemo",
+            "request": "launch",
+            "mainClass": "edu.github.generics.GenericlimitDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeMapTest",
+            "request": "launch",
+            "mainClass": "edu.github.map.treemap.TreeMapTest",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerricInterface",
+            "request": "launch",
+            "mainClass": "edu.github.generics.GenerricInterface",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompareDemo",
+            "request": "launch",
+            "mainClass": "edu.github.string.demo.CompareDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConversionDemo",
+            "request": "launch",
+            "mainClass": "edu.github.string.demo.ConversionDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntegeDateDemo",
+            "request": "launch",
+            "mainClass": "edu.github.string.demo.IntegeDateDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilderDemo",
+            "request": "launch",
+            "mainClass": "edu.github.string.demo.StringBuilderDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringConstructor",
+            "request": "launch",
+            "mainClass": "edu.github.string.demo.StringConstructor",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringDemo",
+            "request": "launch",
+            "mainClass": "edu.github.string.demo.StringDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practise",
+            "request": "launch",
+            "mainClass": "edu.github.string.test.Practise",
+            "projectName": "StructureDemo_3cdfa0f0"
+        }
+    ]
+}
