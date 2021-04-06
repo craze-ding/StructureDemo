@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CollecttionsDemo",
+            "request": "launch",
+            "mainClass": "edu.github.tool.collections.CollecttionsDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrysDemo",
+            "request": "launch",
+            "mainClass": "edu.github.tool.arrys.ArrysDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ErgodicDemo",
+            "request": "launch",
+            "mainClass": "edu.github.tool.ErgodicDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RuntimeDemo",
+            "request": "launch",
+            "mainClass": "edu.github.system.RuntimeDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Copyjpg",
+            "request": "launch",
+            "mainClass": "edu.github.io.bytestream.Copyjpg",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BufferedCopyTest",
+            "request": "launch",
+            "mainClass": "edu.github.io.字符流.buffered.BufferedCopyTest",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Copyjpg",
+            "request": "launch",
+            "mainClass": "edu.github.io.字节流.Copyjpg",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CopyJPG",
+            "request": "launch",
+            "mainClass": "edu.github.io.字节流.CopyJPG",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
             "name": "Launch StringDemo",
             "request": "launch",
             "mainClass": "edu.github.string.demo.StringDemo",
