@@ -9,12 +9,14 @@ package edu.github.io;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ReadKey {
     public static void main(String[] args) throws IOException {
-        // method1();
+        method1();
         method2();
-        // method3();
+        method3();
     }
 
     private static void method3() throws IOException {
@@ -27,7 +29,10 @@ public class ReadKey {
         System.out.println(ch2);// windown中‘\n’
         // in.close();//默认输入输出设备不用关
     }
-
+    /**
+     * 选用stringbuilder()
+     * @throws IOException
+     */
     private static void method2() throws IOException {
         InputStream in = System.in;
         StringBuilder sb = new StringBuilder();
@@ -60,8 +65,39 @@ public class ReadKey {
         }
 
     }
-
-    private static void method1() {
+    /**
+     * 选用arryslist()来存储字符，相比而言比较复杂一点
+     * @throws IOException
+     */
+    private static void method1() throws IOException {
+        InputStream in = System.in;
+        // StringBuilder sb = new StringBuilder();
+        List<Character> list = new ArrayList<>();
+        // 定义读取到的字节的变量，并且循环获取
+        int ch = 0;
+        while ((ch = in.read()) != -1) {
+            if (ch == '\r')
+                continue;
+            if (ch == '\n') {
+                // String temp = sb.toString();
+                Character[] temp = list.toArray(new Character[list.size()]);
+                //去除逗号
+                StringBuffer str5 = new StringBuffer();
+                for (Character s : temp) {
+                    str5.append(s);
+                }
+                if ("exit".equals(str5.toString())) {
+                    return;
+                }
+                System.out.println(str5.toString().toUpperCase());
+                // 输出完立即清StringBuilder.
+                // sb.delete(0, sb.length());
+                list.clear();
+            } else {
+                // sb.append((char) ch);
+                list.add((char) ch);
+            }
+        }
 
     }
 }
