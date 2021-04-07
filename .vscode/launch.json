@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CharToString",
+            "request": "launch",
+            "mainClass": "edu.github.collection.list.arraylist.CharToString",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileMethodDemo",
+            "request": "launch",
+            "mainClass": "edu.github.io.file.FileMethodDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TransformTest",
+            "request": "launch",
+            "mainClass": "edu.github.io.TransformTest",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadKey",
+            "request": "launch",
+            "mainClass": "edu.github.io.ReadKey",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
             "name": "Launch CollecttionsDemo",
             "request": "launch",
             "mainClass": "edu.github.tool.collections.CollecttionsDemo",
