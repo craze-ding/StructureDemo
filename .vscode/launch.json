@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SequenceInputStreamDemo",
+            "request": "launch",
+            "mainClass": "edu.github.io.sequence.SequenceInputStreamDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintDemo",
+            "request": "launch",
+            "mainClass": "edu.github.io.print.PrintDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "edu.github.io.Test",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MathDemo",
+            "request": "launch",
+            "mainClass": "edu.github.math.MathDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PropertiesDemo",
+            "request": "launch",
+            "mainClass": "edu.github.collection.map.hashtable.PropertiesDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetSum",
+            "request": "launch",
+            "mainClass": "edu.github.recursion.GetSum",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch DepthTraversal",
+            "request": "launch",
+            "mainClass": "edu.github.io.DepthTraversal",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
             "name": "Launch CharToString",
             "request": "launch",
             "mainClass": "edu.github.collection.list.arraylist.CharToString",
