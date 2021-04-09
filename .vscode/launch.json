@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HashMapDemo",
+            "request": "launch",
+            "mainClass": "edu.github.collection.map.hashmap.HashMapDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListDemo",
+            "request": "launch",
+            "mainClass": "edu.github.collection.list.ListDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
             "name": "Launch SequenceInputStreamDemo",
             "request": "launch",
             "mainClass": "edu.github.io.sequence.SequenceInputStreamDemo",
