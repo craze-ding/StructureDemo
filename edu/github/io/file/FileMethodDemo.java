@@ -14,17 +14,16 @@ import java.sql.Date;
 import java.text.DateFormat;
 
 import edu.github.suffixfilter.FileterByHidden;
-import edu.github.suffixfilter.SuffixFilter;
 
 
 public class FileMethodDemo {
     public static void main(final String[] args) throws IOException {
-        // method1();
-        // method2();
-        // method3();
-        // method4();
-        // method5();
-        // method6();
+        method1();
+        method2();
+        method3();
+        method4();
+        method5();
+        method6();
         method7();
     
     }
