@@ -23,12 +23,12 @@ import java.io.OutputStreamWriter;
 
 public class TransformTest {
     public static void main(String[] args) throws IOException {
-      //   method1();
-      //   method2();
-      //   method3();
-      //   method4();
-      //   method5();
-      //   method6();
+        method1();
+        method2();
+        method3();
+        method4();
+        method5();
+        method6();
         method7();
     }
 
@@ -120,6 +120,8 @@ private static void method4() throws IOException {
             bw.newLine();
             bw.flush();
         }
+        br.close();
+        bw.close();
         
     }
     /**
