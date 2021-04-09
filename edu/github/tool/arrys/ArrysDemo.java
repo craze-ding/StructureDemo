@@ -1,5 +1,5 @@
 /*
- * @Descripttion: 
+ * @Descripttion:arrys工具方法类 
  * @version: X3版本
  * @Author: 丁志军
  * @Date: 2021-04-06 16:54:13
@@ -12,8 +12,8 @@ import java.util.List;
 
 public class ArrysDemo {
     public static void main(String[] args) {
-        // method1();
-        // method2();
+        method1();
+        method2();
         method3();
        
     }
@@ -72,7 +72,7 @@ public class ArrysDemo {
          * 如果数组元素是对象，转集合时，直接存储；
          * 如果是基本数据类型，那么就将数组作为集合对象存储。
         **/
-        // System.out.println(/* list+ */list.size());//"[[I@15db9742]----1“
+        System.out.println(/* list+ */list.size());//"[[I@15db9742]----1“
     }
 
 }
