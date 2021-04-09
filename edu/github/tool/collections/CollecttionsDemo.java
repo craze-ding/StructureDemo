@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.TreeSet;
 
 /**
- * @program: StructureDemo - 副本
+ * @program: 
  * @description: 集合工具类
  * @author: Craze
  * @create: 2021-03-31 09:27
@@ -38,7 +38,7 @@ public class CollecttionsDemo {
 //        Reversed();//逆转
 //        ReplaceDemo(str);//替换
         // SreachDemo(str);
-        // methodString ();
+        methodString ();
         method(str);
     }
 
