@@ -1,0 +1,11 @@
+#inftion
+#Fri Apr 09 15:32:51 CST 2021
+dingyi=教授
+zhangsan=15
+craze=18
+lisi=男
+wangwu=成都
+ding
+zhi
+jun
+a97
