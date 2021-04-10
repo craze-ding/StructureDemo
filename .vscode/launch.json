@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ObjectDemo",
+            "request": "launch",
+            "mainClass": "edu.github.io.object.ObjectDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileMergeSplitDemo",
+            "request": "launch",
+            "mainClass": "edu.github.io.file.FileMergeSplitDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileReadDemo",
+            "request": "launch",
+            "mainClass": "edu.github.io.charstream.FileReadDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BufferedCopyTest",
+            "request": "launch",
+            "mainClass": "edu.github.io.charstream.buffered.BufferedCopyTest",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenericDemo",
+            "request": "launch",
+            "mainClass": "edu.github.generics.GenericDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenericDefineDemo",
+            "request": "launch",
+            "mainClass": "edu.github.generics.GenericDefineDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CollectionDemo",
+            "request": "launch",
+            "mainClass": "edu.github.collection.CollectionDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeSetTest",
+            "request": "launch",
+            "mainClass": "edu.github.collection.set.treeset.TreeSetTest",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeSetDemo",
+            "request": "launch",
+            "mainClass": "edu.github.collection.set.treeset.TreeSetDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch hashSet",
+            "request": "launch",
+            "mainClass": "edu.github.collection.set.hashset.hashSet",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MapTest",
+            "request": "launch",
+            "mainClass": "edu.github.collection.map.MapTest",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MapDemo",
+            "request": "launch",
+            "mainClass": "edu.github.collection.map.MapDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeMapTest",
+            "request": "launch",
+            "mainClass": "edu.github.collection.map.treemap.TreeMapTest",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeMapDemo",
+            "request": "launch",
+            "mainClass": "edu.github.collection.map.treemap.TreeMapDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashMapTest",
+            "request": "launch",
+            "mainClass": "edu.github.collection.map.hashmap.HashMapTest",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
             "name": "Launch HashMapDemo",
             "request": "launch",
             "mainClass": "edu.github.collection.map.hashmap.HashMapDemo",
