@@ -1,9 +1,22 @@
+/*
+ * @Descripttion : 
+ * @version      : v1版本
+ * @Author       : 丁志军
+ * @Date         : 2021-04-02 18:47:00
+ * @FilePath     : \edu\github\bin\Persion.java
+ */
 package edu.github.bin;
 
-public class Persion implements Comparable<Object> {
-    private String name;
-    private int age;
+import java.io.Serializable;
 
+public class Persion implements Comparable<Object>,Serializable {
+    /**
+     *transient(短暂的)不想写入磁盘中但又不是共有数据
+     */
+    private static final long serialVersionUID = 1L;
+    private /* transient */ String  name;
+    private /* static */ int age;
+    //将被静态修饰的成员变量反序列化将不能被保持！！！只有内存中才被写入磁盘
     public Persion(String name, int age) {
         this.name = name;
         this.age = age;
