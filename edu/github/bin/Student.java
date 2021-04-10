@@ -1,6 +1,17 @@
+/*
+ * @Descripttion : 
+ * @version      : v1版本
+ * @Author       : 丁志军
+ * @Date         : 2021-04-02 18:47:00
+ * @FilePath     : \edu\github\bin\Student.java
+ */
 package edu.github.bin;
 
 public class Student extends Persion{ 
+    
+    
+    
+    private static final long serialVersionUID = 1L;
     public Student(){
         super();
     }  
