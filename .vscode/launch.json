@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CutStringByByteTest",
+            "request": "launch",
+            "mainClass": "edu.github.io.elseIo.encoding.CutStringByByteTest",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch EncodDemo",
+            "request": "launch",
+            "mainClass": "edu.github.io.elseIo.encoding.EncodDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PipedStreamDemo",
+            "request": "launch",
+            "mainClass": "edu.github.io.elseIo.pipedstream.PipedStreamDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ByteArrayInputStreamDemo",
+            "request": "launch",
+            "mainClass": "edu.github.io.elseIo.bytearraystream.ByteArrayInputStreamDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateStreamDemo",
+            "request": "launch",
+            "mainClass": "edu.github.io.elseIo.datestream.DateStreamDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomAccessFileDemo",
+            "request": "launch",
+            "mainClass": "edu.github.io.randomaccessfile.RandomAccessFileDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
             "name": "Launch ObjectDemo",
             "request": "launch",
             "mainClass": "edu.github.io.object.ObjectDemo",
