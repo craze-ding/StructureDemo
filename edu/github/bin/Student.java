@@ -8,7 +8,8 @@
 package edu.github.bin;
 
 public class Student extends Persion{ 
-    
+    public int score;
+    private int grade;
     
     
     private static final long serialVersionUID = 1L;
@@ -19,6 +20,7 @@ public class Student extends Persion{
         super(name,age); //让父类去初始化      
     }
     public String toString(){//实现功能,写自己的内容
+        System.out.println("哈哈");
         return "student"+"----"+super.getName()+":"+super.getAge();
     }   
 }

@@ -55,8 +55,8 @@ public class Persion implements Comparable<Object>,Serializable {
     public void setName(String name) {
         this.name = name;
     }
-
-    public void setAge(int age) {
+    //这里被暂时设置为private是为了测试反射之获取实例方法！可以public
+    private void setAge(int age) {
         this.age = age;
     }
 
@@ -78,6 +78,10 @@ public class Persion implements Comparable<Object>,Serializable {
         return temp==0?this.name.compareTo(p.name):temp; 
         // int temp=this.name.compareTo(p.name);
         // return temp==0?this.age-p.getAge():temp;
+    }
+
+    public Persion(String name) {
+        this.name = name;
     }
 
 }
