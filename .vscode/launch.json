@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InheritDemo",
+            "request": "launch",
+            "mainClass": "edu.github.reflection.InheritDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructionDemo",
+            "request": "launch",
+            "mainClass": "edu.github.reflection.ConstructionDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodDemo",
+            "request": "launch",
+            "mainClass": "edu.github.reflection.MethodDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FieldDemo",
+            "request": "launch",
+            "mainClass": "edu.github.reflection.FieldDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch AccessField",
+            "request": "launch",
+            "mainClass": "edu.github.reflection.AccessField",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch DLL",
+            "request": "launch",
+            "mainClass": "edu.github.reflection.DLL",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch HttpClient",
+            "request": "launch",
+            "mainClass": "edu.github.http.HttpClient",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyTomcat",
+            "request": "launch",
+            "mainClass": "edu.github.socket.stcp.MyTomcat",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch UploadPicClient",
+            "request": "launch",
+            "mainClass": "edu.github.socket.stcp.UploadPicClient",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch UploadPicService",
+            "request": "launch",
+            "mainClass": "edu.github.socket.stcp.UploadPicService",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPClient",
+            "request": "launch",
+            "mainClass": "edu.github.socket.stcp.TCPClient",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPService",
+            "request": "launch",
+            "mainClass": "edu.github.socket.stcp.TCPService",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch UDPChat",
+            "request": "launch",
+            "mainClass": "edu.github.socket.sudp.UDPChat",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnimalDemo",
+            "request": "launch",
+            "mainClass": "edu.github.AnimalDemo",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWrold",
+            "request": "launch",
+            "mainClass": "edu.github.io.sequence.HelloWrold",
+            "projectName": "StructureDemo_3cdfa0f0"
+        },
+        {
+            "type": "java",
             "name": "Launch CutStringByByteTest",
             "request": "launch",
             "mainClass": "edu.github.io.elseIo.encoding.CutStringByByteTest",
